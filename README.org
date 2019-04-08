@@ -1,0 +1,9 @@
+#+TITLE: README
+
+* Fish private module
+
+** Installation
+
+#+BEGIN_SRC shell
+$ git clone git@github.com:UndeadKernel/fish.git ~/.config/fish
+#+END_SRC
