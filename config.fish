@@ -8,11 +8,15 @@ end
 # Get rid of the greeting
 set fish_greeting
 
-# Universal variable for universal editor
-set -U EDITOR "emacs -nw"
-
 # Set the theme for `bobthefish` prompt
 set theme_color_scheme dracula
 
 # Show full path in prompt
 set fish_prompt_pwd_dir_length 0
+
+# Notify when a command takes longer than 10 seconds
+set __done_min_cmd_duration 5000
+
+
+# Universal variable for universal editor
+set -x EDITOR "emacs -nw"
