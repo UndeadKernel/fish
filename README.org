@@ -7,3 +7,15 @@
 #+BEGIN_SRC shell
 $ git clone git@github.com:UndeadKernel/fish.git ~/.config/fish
 #+END_SRC
+
+or
+
+#+BEGIN_SRC shell
+$ git clone https://github.com/UndeadKernel/fish.git ~/.config/fish
+#+END_SRC
+
+** Fish as Default Shell
+
+#+BEGIN_SRC shell
+$ chsh -s $(which fish)
+#+END_SRC
