@@ -20,3 +20,4 @@ set __done_min_cmd_duration 5000
 
 # Universal variable for universal editor
 set -x EDITOR "emacs -nw"
+set PATH ~/bin $PATH
